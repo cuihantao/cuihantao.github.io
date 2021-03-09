@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Hantao Cui</title>
+  <title>Hantao Cui | ANDES Version 1.1.0 released highlighting renewable generation models.</title>
   <meta name="description" content="Hantao Cui's academic website.
 ">
 
@@ -15,7 +15,7 @@
   <link rel="shortcut icon" href="/assets/img/favicon.ico">
 
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="canonical" href="/blog/">
+  <link rel="canonical" href="/news/2020-andes-renewables/">
 </head>
 
 
@@ -88,24 +88,50 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="header-bar">
-  <h1>CuiSpace</h1>
-  <h2>Hantao Cui's Space</h2>
-</div>
+        <div class="post">
 
+  <header class="post-header">
+    <h1 class="post-title">ANDES Version 1.1.0 released highlighting renewable generation models.</h1>
+    <p class="post-meta">September 1, 2020</p>
+  </header>
 
-<ul class="post-list">
-  
-    <li>
-      <h2><a class="post-title" href="/blog/2020/andes-docker/">Tutorial - Running andes in a Docker container</a></h2>
-      <p class="post-meta">March 25, 2020 — 12:40</p>
-      <p>Docker lets you run andes without installation. Here's a few notes on folder mounting.</p>
-    </li>
-  
+  <article class="post-content">
+    <p>ANDES Version 1.1.0 released highlighting renewable generation models.</p>
+
+<hr />
+<p>The most recent ANDES release v1.1.0 comes with renewable generation models, including solar PV, generic type 3 wind, and generic type 4 wind.</p>
+
+<p>Models developed in ANDES are:</p>
+
+<ul>
+  <li>Converter control model <code class="language-plaintext highlighter-rouge">REGCA1</code></li>
+  <li>Electrical control model <code class="language-plaintext highlighter-rouge">REECA1</code></li>
+  <li>Plant control model<code class="language-plaintext highlighter-rouge">REPCA1</code></li>
+  <li>Drive-train models <code class="language-plaintext highlighter-rouge">WTDTA1</code> (dual-mass model) and <code class="language-plaintext highlighter-rouge">WTDS</code> (single-mass model)</li>
+  <li>Aerodynamic model <code class="language-plaintext highlighter-rouge">WTARA1</code></li>
+  <li>Pitch controller model <code class="language-plaintext highlighter-rouge">WTPTA1</code></li>
+  <li>Torque (a.k.a. Pref) model <code class="language-plaintext highlighter-rouge">WTTQA1</code></li>
 </ul>
 
+<p>These models are in PSS/E’s naming convention.</p>
+
+<p>The general combination of models are</p>
+
+<ul>
+  <li>One will use <code class="language-plaintext highlighter-rouge">REGCA1</code>, <code class="language-plaintext highlighter-rouge">REECA1</code> and <code class="language-plaintext highlighter-rouge">REPCA1</code> to simulate large-scale solar PV.</li>
+  <li>One will use <code class="language-plaintext highlighter-rouge">REGCA1</code>, <code class="language-plaintext highlighter-rouge">REECA1</code> and <code class="language-plaintext highlighter-rouge">REPCA1</code> to simulate type 4 wind model.
+The drive-train model can be added optionally.</li>
+  <li>One can use all the models to simulate type 3 wind model.</li>
+</ul>
+
+<p>Reference: PowerWorld, “Transient Stability Overview: Renewable Energy Generation Modeling (Wind, Solar, Energy Storage, Distributed Photo Voltaic)”, Online: <a href="https://www.powerworld.com/WebHelp/Content/MainDocumentation_HTML/Transient_Stability_Overview_WindModeling.htm">PowerWorld website</a>.</p>
 
 
+  </article>
+
+  
+
+</div>
 
       </div>
     </div>

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Hantao Cui | Tutorial - Running andes in a Docker container</title>
+  <meta name="description" content="Hantao Cui's academic website.
+">
+
+  
+
+  <link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="/blog/2020/andes-docker/">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    
+    <span class="site-title">
+        
+        <strong>Hantao</strong> Cui
+    </span>
+    
+
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+      <div class="trigger">
+        <!-- About -->
+        <a class="page-link" href="/">about</a>
+
+        <!-- Pages -->
+        
+          
+        
+          
+        
+          
+        
+          
+            <a class="page-link" href="/projects/">projects</a>
+          
+        
+          
+            <a class="page-link" href="/publications/">publications</a>
+          
+        
+          
+            <a class="page-link" href="/teaching/">teaching</a>
+          
+        
+          
+        
+
+        <!-- Blog -->
+        <a class="page-link" href="/blog/">blog</a>
+
+        <!-- CV link -->
+        <a class="page-link" href="/assets/pdf/Hantao_Cui_CV.pdf">vitae</a>
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Tutorial - Running andes in a Docker container</h1>
+    <p class="post-meta">March 25, 2020</p>
+  </header>
+
+  <article class="post-content">
+    <h2 id="introduction">Introduction</h2>
+
+<p>Docker container saves the efforts for setting up Python and installing dependent packages. A Docker container of andes is available if you prefer to use it in a container without installation.</p>
+
+<p>There are excellent tutorial on the internet for getting started with Docker. For example, checkout the Docker installation guide at <a href="https://docs.docker.com/install/">https://docs.docker.com/install/</a>.</p>
+
+<p>Please continue reading after installing Docker.</p>
+
+<h2 id="getting-the-docker-image">Getting the Docker Image</h2>
+<p>To pull the Docker image from DockerHub, run</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker pull cuihantao/andes:latest
+</code></pre></div></div>
+
+<h2 id="mounting-folders">Mounting Folders</h2>
+<p>When you run andes inside a docker, it is executed inside a container. Andes in the container only has access to files within the container.</p>
+
+<p>To run andes for a file in the local file system, one needs to mount the folder containing the file to the container. Mounting is done with <code class="language-plaintext highlighter-rouge">-v</code> or <code class="language-plaintext highlighter-rouge">--volume</code>, followed by the source directory and destination directory followed by colon. The destination directory must be <code class="language-plaintext highlighter-rouge">/andes</code> for andes containers.</p>
+
+<p>For the source folder, It is recommended to create a folder specifically for andes test cases. For example, my folder is at <code class="language-plaintext highlighter-rouge">/Users/hcui7/notebooks</code> (this location is specific to your system and user name).</p>
+
+<p>Next, copy andes test cases into the folder. In the example, I’m using <code class="language-plaintext highlighter-rouge">kundur_full.xlsx</code>.</p>
+
+<h2 id="running-andes">Running ANDES</h2>
+<p>To run andes using docker, run</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker run <span class="nt">-v</span> /Users/hcui7/notebooks:/andes cuihantao/andes run kundur_full.xlsx
+</code></pre></div></div>
+
+<p>where <code class="language-plaintext highlighter-rouge">-v /Users/hcui7/notebooks:/andes</code> does the folder mounting, <code class="language-plaintext highlighter-rouge">cuihantao/andes</code> is the image name, and <code class="language-plaintext highlighter-rouge">run kundur_full.xlsx</code> is the command and argument passed to <code class="language-plaintext highlighter-rouge">andes</code> within the container.</p>
+
+<p>As is seen in the example, commands and arguments are passed to the container in the same way as to a local andes. For example, to enable verbose logging, run</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker run <span class="nt">-v</span> /Users/hcui7/notebooks:/andes cuihantao/andes <span class="nt">-v</span> 10 run kundur_full.xlsx
+</code></pre></div></div>
+
+<p>The output files will be written to the source folder in your local machine. In my example, outputs are saved to <code class="language-plaintext highlighter-rouge">/Users/hcui7/notebooks</code>.</p>
+
+<h2 id="prepare-and-config">Prepare and Config</h2>
+
+<p>The latest Andes docker image contains pre-generated numerical calls stored in <code class="language-plaintext highlighter-rouge">/home/cui/.andes/calls.pkl</code>. One does not need to wait for code generation.</p>
+
+<p>To use a custom Config file, place the <code class="language-plaintext highlighter-rouge">andes.rc</code> in the folder that you are mounting. To check which config file is being used, turn on debugging messages with <code class="language-plaintext highlighter-rouge">andes -v 10</code>.</p>
+
+<h2 id="make-an-alias---the-easiest-way">Make an alias - the easiest way</h2>
+
+<p>One might want to use a shorter command to run Andes from docker. The solution in Bash (or zsh, or others) is to create an alias command.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">alias </span><span class="nv">andesd</span><span class="o">=</span><span class="s1">'docker run -v `pwd`:/andes cuihantao/andes:latest'</span>
+</code></pre></div></div>
+
+<p>Run the above command to create an alias called <code class="language-plaintext highlighter-rouge">andesd</code> that automatically mounts the current folder.
+One can add this command to the shell profile (<code class="language-plaintext highlighter-rouge">~/.bashrc</code> or others) to create the alias automatically upon login.</p>
+
+<p>Once completed, using Andes from docker is as simple as that from the host - simply replace <code class="language-plaintext highlighter-rouge">andes</code> with <code class="language-plaintext highlighter-rouge">andesd</code>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>andesd run kundur_full.xlsx
+</code></pre></div></div>
+<p>where <code class="language-plaintext highlighter-rouge">kundur_full.xlsx</code> should exist in the current host folder. Note that Andes will search for the <code class="language-plaintext highlighter-rouge">andes.rc</code> config file in the sequence of 1) current folder, and 2) the default one in the container at <code class="language-plaintext highlighter-rouge">/home/cui/.andes/andes.rc</code>.</p>
+
+  </article>
+
+  
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+      var disqus_shortname  = 'hantao-cuis-website';
+      var disqus_identifier = '/blog/2020/andes-docker';
+      var disqus_title      = "Tutorial - Running andes in a Docker container";
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  
+
+</div>
+
+      </div>
+    </div>
+
+    <footer>
+
+  <div class="wrapper">
+    &copy; Copyright 2021 Hantao Cui.
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+
+    
+        Last updated: 01 December 2020.
+    
+  </div>
+
+</footer>
+
+
+    <!-- Load jQuery -->
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js"></script>
+<script src="/assets/js/katex.js"></script>
+
+
+
+
+<!-- Include custom icon fonts -->
+<link rel="stylesheet" href="/assets/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="/assets/css/academicons.min.css">
+
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-117249817-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+  </body>
+
+</html>
