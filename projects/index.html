@@ -10,10 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Hantao Cui | blog</title>
+    <title>Hantao Cui | projects</title>
     <meta name="author" content="Hantao  Cui" />
-    <meta name="description" content="Hantao Cui's academic website.
-" />
+    <meta name="description" content="Present and past projects." />
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
 
 
@@ -32,7 +31,7 @@
     <!-- Styles -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://cuihantao.github.io/blog/">
+    <link rel="canonical" href="https://cuihantao.github.io/projects/">
 
     <!-- Dark Mode -->
     <script src="/assets/js/theme.js"></script>
@@ -66,8 +65,8 @@
               </li>
               
               <!-- Blog -->
-              <li class="nav-item active">
-                <a class="nav-link" href="/blog/">blog<span class="sr-only">(current)</span></a>
+              <li class="nav-item ">
+                <a class="nav-link" href="/blog/">blog</a>
               </li>
 
               <!-- Other pages -->
@@ -87,8 +86,8 @@
               </li>
 
               <!-- Toogle theme mode -->
-              <div class = "toggle-container">
-                <a id = "light-toggle">
+              <div class="toggle-container">
+                <a id="light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
                 </a>
@@ -101,76 +100,84 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- page.html -->
+        <div class="post">
 
-  <div class="header-bar">
-    <h1>CuiSpace</h1>
-    <h2>Hantao Cui's Space</h2>
+          <header class="post-header">
+            <h1 class="post-title">projects</h1>
+            <p class="post-description">Present and past projects.</p>
+          </header>
+
+          <article>
+            <!-- pages/projects.md -->
+<div class="projects">
+<!-- Display projects without categories --><!-- Generate cards for each project -->
+  <div class="grid">
+    <!-- _includes/projects.html -->
+    <div class="grid-item">
+      <a href="/projects/curent-ltb/">
+        <div class="card hoverable">
+<figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/proj_ltb_icon-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/proj_ltb_icon-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/proj_ltb_icon-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/proj_ltb_icon.jpg" alt="project thumbnail">
+
+  </picture>
+
+</figure>
+
+          <div class="card-body">
+            <h2 class="card-title text-lowercase">CURENT Large-Scale Testbed</h2>
+            <p class="card-text">The CURENT LTB for wide-area monitoring, modeling, control, and demonstration</p>
+            <div class="row ml-1 mr-1 p-0">
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- _includes/projects.html -->
+    <div class="grid-item">
+      <a href="/projects/reads/">
+        <div class="card hoverable">
+<figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/proj_reads_icon-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/proj_reads_icon-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/proj_reads_icon-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/proj_reads_icon.png" alt="project thumbnail">
+
+  </picture>
+
+</figure>
+
+          <div class="card-body">
+            <h2 class="card-title text-lowercase">Interesting reads</h2>
+            <p class="card-text">The page collects interesting reads about energy systems, computing, and programming.</p>
+            <div class="row ml-1 mr-1 p-0">
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
   </div>
-
-
-  <ul class="post-list">
-    
-
-    
-    
-    
-    
-
-    <li>
-      <h3><a class="post-title" href="/blog/2021/teams-teaching/">Teaching with Microsoft Teams</a>
-      </h3>
-      <p>A workflow that automates lecturing, handwriting, recording, and uploading.</p>
-      <p class="post-meta"> 5 min read &nbsp; &middot; &nbsp;
-        August 25, 2021
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
-
-          
-
-          
-    </p>
-    </li>
-
-    
-
-    
-    
-    
-    
-
-    <li>
-      <h3><a class="post-title" href="/blog/2020/andes-docker/">Tutorial - Running andes in a Docker container</a>
-      </h3>
-      <p>Docker lets you run andes without installation. Here's a few notes on folder mounting.</p>
-      <p class="post-meta"> 4 min read &nbsp; &middot; &nbsp;
-        March 25, 2020
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2020">
-          <i class="fas fa-calendar fa-sm"></i> 2020 </a>
-
-          
-
-          
-    </p>
-    </li>
-
-    
-  </ul>
-
-  
-
 </div>
+
+          </article>
+
+        </div>
 
     </div>
 
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2023 Hantao  Cui. Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+        © Copyright 2023 Hantao  Cui. Powered by <a href="http://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme.
 Last updated: September 17, 2023.
       </div>
     </footer>
