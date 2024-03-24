@@ -2,15 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Assistant Professor and Distinguished Fellow of ECE
 
 profile:
   align: right
   image: cui-hantao-july2021.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>265 Engineering South</p>
-    <p>Stillwater, OK 74078</p>
+    <p>200 Engineering South</p>
     <p>Electrical and Computer Engineering</p>
     <p>Oklahoma State University</p>
 
