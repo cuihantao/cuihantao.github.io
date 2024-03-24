@@ -2,12 +2,14 @@
 layout: post
 date: 2023-08-25 00:00:00-0400
 inline: false
-title: Proposal "Collaborative Research: CyberTraining: Pilot: PowerCyber: Computational Training for Power Engineering Researchers" funded by National Science Foundation.
+title: CyberTraining project funded by National Science Foundation.
 ---
 
 Dr. Cui is grateful to receive an NSF award to develop computational training
 materials for power engineering researchers. This work is in collaboration with
-Dr. Xin Fang at Mississippi State University.
+Dr. Xin Fang at Mississippi State University. The project is titled
+"Collaborative Research: CyberTraining: Pilot: PowerCyber: Computational
+Training for Power Engineering Researchers".
 
 In this project, the investigators will develop an online, modular, and openly
 available PowerCyber training to prepare power engineering researchers with a
