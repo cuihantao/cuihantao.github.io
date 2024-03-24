@@ -2,11 +2,29 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Teaching activities and notes.
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+Oklahoma State University
 
-Organize your courses by years, topics, or universities, however you like!
+- [Spring 2023]
+  ECEN 5113 (Power System Analysis by Computer Methods)
+
+- [Fall 2022]
+  ECEN 4153 (Power System Analysis)
+
+- [Spring 2022]
+  ECEN 4283/5080 (Computer Networks)
+
+- [Fall 2021]
+  ECEN 5113 (Power System Analysis by Computer Methods)
+
+University of Tennessee, Knoxville
+
+- [Spring 2019 - Spring 2021]
+  UTK - ECE 496/691 (CURENT Power and Energy Seminar)
+
+- [Fall 2019]
+    Co-instructor of ECE 421 (Electric Energy Systems)

@@ -156,9 +156,9 @@ disqus_shortname: hantao-cuis-website # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+#external_sources:
+#  - name: medium.com
+#    rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -286,8 +286,8 @@ display_categories: ["blockquotes"] # these categories will be displayed on the 
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Cui]
+  first_name: [Hantao]
 
   style: apa
   locale: en
@@ -305,6 +305,8 @@ scholar:
 
   details_dir: bibliography
   details_link: Details
+
+  bibtex_skip_fields: [bibtex_show, html, pdf, supp, blog, code, poster, slides, website, abbr, abstract, month_numeric]
 
   query: "@*"
   group_by: year

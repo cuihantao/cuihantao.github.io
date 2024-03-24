@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /repositories/
-title: repositories
+permalink: /software/
+title: software
 description:
-nav: true
-nav_order: 4
+nav: false
+nav_order: 8
 ---
 
 ## GitHub users
