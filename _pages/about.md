@@ -23,7 +23,7 @@ the University of Tennessee, Knoxville in 2018. Prior to that, he received M.S.
 and B.S. in electrical engineering from Southeast University in China in 2013
 and 2011. He was the Chief Technologist of the [CURENT](https://curent.utk.edu)
 Large-Scale Testbed (LTB), a winner of the 2020 R&D 100 Awards, and is the
-author of [ANDES](https://github.com/cuihantao/andes) for power systems modeling
+author of [ANDES](https://github.com/curent/andes) for power systems modeling
 and analysis.
 
 Hantao Cui has been an Associate Editor of the [Journal of Modern Power Systems
