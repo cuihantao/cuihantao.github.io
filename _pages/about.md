@@ -2,33 +2,36 @@
 layout: about
 title: about
 permalink: /
-subtitle: Assistant Professor and Distinguished Fellow of ECE
+subtitle: Associate Professor
 
 profile:
   align: right
   image: cui-hantao-july2021.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>200 Engineering South</p>
+    <p>21 Keystone Science Center</p>
     <p>Electrical and Computer Engineering</p>
-    <p>Oklahoma State University</p>
+    <p>North Carolina State University</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-Hantao Cui is an assistant professor with Electrical and Computer Engineering at
-Oklahoma State University. He received his Ph. D. in electrical engineering from
-the University of Tennessee, Knoxville in 2018. Prior to that, he received M.S.
-and B.S. in electrical engineering from Southeast University in China in 2013
-and 2011. He was the Chief Technologist of the [CURENT](https://curent.utk.edu)
-Large-Scale Testbed (LTB), a winner of the 2020 R&D 100 Awards, and is the
-author of [ANDES](https://github.com/curent/andes) for power systems modeling
-and analysis.
 
-Hantao Cui has been an Associate Editor of the [Journal of Modern Power Systems
-and Clean Energy](http://www.mpce.info) since 2019. He is a Senior Member of the
-IEEE.
+Hantao Cui is an associate professor of Electrical and Computer Engineering at
+North Carolina State University. Prior to joining NC State, he was an assistant
+professor at Oklahoma State University from 2021 to 2024. He earned his Ph.D. in
+Electrical Engineering from the University of Tennessee, Knoxville (2018),
+following his M.S. (2013) and B.S. (2011) in the same field from Southeast
+University, China. He was the Chief Technologist of the
+[CURENT](https://curent.utk.edu) Large-Scale Testbed (LTB), a winner of the 2020
+R&D 100 Awards, and is the author of [ANDES](https://github.com/curent/andes)
+for power systems modeling and analysis.
+
+Hantao Cui currently serves as the Vice Chair of the [IEEE PES Computer and
+Analytical Methods Subcommittee (CAMS)](https://cmte.ieee.org/pes-cams/). He has
+been an Associate Editor of the [Journal of Modern Power Systems and Clean
+Energy](http://www.mpce.info) since 2019. He is a Senior Member of the IEEE.
 
 Hantao Cui's research include:
 
