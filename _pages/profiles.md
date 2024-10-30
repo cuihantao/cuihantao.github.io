@@ -15,19 +15,5 @@ profiles:
     image_circular: true # crops the image to make it circular
     more_info: >
       <p>Ahmad Ali</p>
-      <p>Ph.D. Student of S'22</p>
-  - align: left
-    image: members/zaid-mahmood.jpg
-    content: members/zaid-mahmood.md
-    image_circular: true # crops the image to make it circular
-    more_info: >
-      <p>Zaid Ibn Mahmood</p>
-      <p>Ph.D. Student of S'22</p>
-  - align: right
-    image: members/haya-monawwar.jpg
-    content: members/haya-monawwar.md
-    image_circular: true # crops the image to make it circular
-    more_info: >
-      <p>Haya Monawwar</p>
-      <p>Ph.D. Student of F'23</p>
+      <p>Ph.D. Student of F'24</p>
 ---
