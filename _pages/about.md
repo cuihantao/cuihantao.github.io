@@ -6,7 +6,7 @@ subtitle: Associate Professor
 
 profile:
   align: right
-  image: cui-hantao-july2021.jpg
+  image: Hantao-Cui-2024.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>21 Keystone Science Center</p>
