@@ -5,4 +5,3 @@ inline: true
 ---
 
 My first-author paper titled [Day-ahead coordinated operation of utility-scale electricity and natural gas networks considering demand response based virtual power plants](https://www.sciencedirect.com/science/article/pii/S030626191630589X) accepted by _Applied Energy_.
-

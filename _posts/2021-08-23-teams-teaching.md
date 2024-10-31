@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  Teaching with Microsoft Teams
-date:   2021-08-25 15:40:16
+title: Teaching with Microsoft Teams
+date: 2021-08-25 15:40:16
 description: A workflow that automates lecturing, handwriting, recording, and uploading.
 comments: true
 ---
+
 This article demonstrates a streamlined workflow for lecturing, handwriting, recording, and uploading.
 You can save time setting up online lectures, uploading videos, and sending out links.
 
@@ -21,7 +22,7 @@ create a dedicated, shared folder and post it on Canvas.
 
 ## Setting up Microsoft Teams meetings
 
-First, let's set up a recurring Teams meeting and *invite all students*.
+First, let's set up a recurring Teams meeting and _invite all students_.
 
 Open Microsoft Teams and log in with your instution account.
 On the left panel, click on "Calendar" and
@@ -52,14 +53,14 @@ You can pin it from the right-click menu.
 
 Access your [Microsoft OneDrive Webapp](https://www.microsoft.com/en-us/microsoft-365?ms.url=officecom&shorturl=onedrive&rtc=1)
 with the same instution account.
-A folder named *Recordings* will appear with the just-recorded video.
+A folder named _Recordings_ will appear with the just-recorded video.
 Feel free to remove this test video. Next:
 
 - Create a folder in the "Recording" folder (or elsewhere you prefer in this OneDrive).
   My folder is called "ECEN 5113 Fall 2021".
-- Right click on the new folder and select *Share*.
-- In the new window, click on *People you specify can view >* and change it to *People in [Your organization] with the link*.
-- Click on *Apply* and select *Copy link* (see screenshot below). A unique link will be created for sharing on Canvas.
+- Right click on the new folder and select _Share_.
+- In the new window, click on _People you specify can view >_ and change it to _People in [Your organization] with the link_.
+- Click on _Apply_ and select _Copy link_ (see screenshot below). A unique link will be created for sharing on Canvas.
 
 <img src="/assets/img/2021-08-23-teams-teaching/onedrive-share.png" width="800">
 
@@ -67,13 +68,12 @@ Feel free to remove this test video. Next:
 
 Now, let's put it on Canvas.
 
-- Created a module called *Streaming and Recording* and pinned it to the top.
-- Click on the "+" sign on the right of the module title bar to add an *External URL*.
-- Fill in a title (*Lecture Recording*, for example) and paste the copied sharing link.
-- If you want to live stream lectures, add another *External URL* and provide the
+- Created a module called _Streaming and Recording_ and pinned it to the top.
+- Click on the "+" sign on the right of the module title bar to add an _External URL_.
+- Fill in a title (_Lecture Recording_, for example) and paste the copied sharing link.
+- If you want to live stream lectures, add another _External URL_ and provide the
   meeting link, which can be found in the Teams Calendar (see the screenshot below).
-- Next, publish the module item when ready. Use the *Student View* to double check.
-
+- Next, publish the module item when ready. Use the _Student View_ to double check.
 
 At the beginning of the semester, I sent out an email informing students that
 lecture recordings will be available at the same link on Canvas, following lectures.
@@ -105,7 +105,7 @@ classroom PC.
 Above are the one-time setup steps.
 The after-class steps are extremely simple:
 
-1. Drag the new video recording in the OneDrive *Recordings* folder to the shared folder.
+1. Drag the new video recording in the OneDrive _Recordings_ folder to the shared folder.
 2. Save the slides with ink notes and drag it to the other OneDrive shared folder.
 
 ## Final Notes

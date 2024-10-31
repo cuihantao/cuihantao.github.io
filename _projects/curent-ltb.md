@@ -44,7 +44,6 @@ LTB platform via data streaming, which provides the inputs to the control method
 
 LTB provides a testing platform to validate and verify new models and control technologies developed in CURENT. It also serves as a driver of research since it allows fast prototyping of new models and grid infrastructures, direct access to simulation and measurement data, and instant feedback of the wide-area control signals. Thus, it is of critical importance to the success of the CURENT research visions.
 
-
 ## Points of Contact
 
 Fran Li (865) 974-8401 (ph.), (865) 974-9723 (fax), fli6@utk.edu
@@ -52,4 +51,3 @@ Fran Li (865) 974-8401 (ph.), (865) 974-9723 (fax), fli6@utk.edu
 Kevin Tomsovic (865) 974-2693 (ph.), (865) 974-5483 (fax), tomsovic@utk.edu
 
 Hantao Cui (865) 974-5493 hcui7@utk.edu
-

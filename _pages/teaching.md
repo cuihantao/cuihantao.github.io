@@ -27,4 +27,4 @@ University of Tennessee, Knoxville
   UTK - ECE 496/691 (CURENT Power and Energy Seminar)
 
 - [Fall 2019]
-    Co-instructor of ECE 421 (Electric Energy Systems)
+  Co-instructor of ECE 421 (Electric Energy Systems)

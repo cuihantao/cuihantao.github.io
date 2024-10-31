@@ -7,7 +7,8 @@ inline: false
 
 ANDES Version 1.1.0 released highlighting renewable generation models.
 
-***
+---
+
 The most recent ANDES release v1.1.0 comes with renewable generation models, including solar PV, generic type 3 wind, and generic type 4 wind.
 
 Models developed in ANDES are:
@@ -30,4 +31,3 @@ The general combination of models are
 - One can use all the models to simulate type 3 wind model.
 
 Reference: PowerWorld, "Transient Stability Overview: Renewable Energy Generation Modeling (Wind, Solar, Energy Storage, Distributed Photo Voltaic)", Online: [PowerWorld website](https://www.powerworld.com/WebHelp/Content/MainDocumentation_HTML/Transient_Stability_Overview_WindModeling.htm).
-

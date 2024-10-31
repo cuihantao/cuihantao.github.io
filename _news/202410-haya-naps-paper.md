@@ -5,7 +5,6 @@ inline: false
 title: Paper "Impact of Reordering on the LU Factorization Performance of Bordered Block-Diagonal Sparse Matrix" accepted at NAPS 2024
 ---
 
-
 Our paper titled "Impact of Reordering on the LU Factorization Performance of
 Bordered Block-Diagonal Sparse Matrix" has been accepted for the 2024 North
 American Power Symposium (NAPS). This paper identifies that the factorization of
@@ -16,9 +15,8 @@ State University for the leading efforts.
 
 This paper is coauthored with Dr. Jonathan Maack and Dr. Min Xiong at National
 Renewable Energy Laboratory. We also want to thank the support from Dr. Jin Tan
-and Dr. Andy Hoke at NREL. 
+and Dr. Andy Hoke at NREL.
 
 Ahmad Ali presented this paper at NAPS 2024 in El Paso, TX.
-
 
 <img src="{{ '/assets/photos/naps-2024-with-ahmad.jpg' | relative_url }}" class="img-fluid" />

@@ -7,6 +7,6 @@ inline: false
 
 Paper Accepted by IEEE Transactions on Power Systems
 
-***
-My co-authored paper titled “Analytical Method to Aggregate Multi-Machine SFR Model with Applications in Power System Dynamic Studies” accepted by on IEEE Transactions on Power Systems.
+---
 
+My co-authored paper titled “Analytical Method to Aggregate Multi-Machine SFR Model with Applications in Power System Dynamic Studies” accepted by on IEEE Transactions on Power Systems.

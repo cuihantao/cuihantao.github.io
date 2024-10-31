@@ -11,7 +11,6 @@ State won the bid and will host NAPS 2027.
 
 We welcome all to attend NAPS 2027 at NC State in Raleigh, NC.
 
-
 <img src="{{ '/assets/photos/naps-2024-with-organizers.jpg' | relative_url }}" class="img-fluid" />
 
 From left to right: Paras Mandal, Yuanrui Sang, Wenyuan Tang, Hantao Cui
