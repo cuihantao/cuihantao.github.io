@@ -25,8 +25,8 @@ Electrical Engineering from the University of Tennessee, Knoxville (2018),
 following his M.S. (2013) and B.S. (2011) in the same field from Southeast
 University, China. He was the Chief Technologist of the
 [CURENT](https://curent.utk.edu) Large-Scale Testbed (LTB), a winner of the 2020
-R&D 100 Awards, and is the author of [ANDES](https://github.com/curent/andes)
-for power systems modeling and analysis.
+R&D 100 Awards, the author of [ANDES](https://github.com/curent/andes)
+for power systems modeling and analysis, and an NSF CAREER Award recipient.
 
 Hantao Cui currently serves as the Vice Chair of the [IEEE PES Computer and
 Analytical Methods Subcommittee (CAMS)](https://cmte.ieee.org/pes-cams/). He has
