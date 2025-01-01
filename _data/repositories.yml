@@ -1,6 +1,8 @@
 github_users:
   - cuihantao
 
+repo_description_lines_max: 3
+
 github_repos:
   - curent/andes
   - curent/ltb
