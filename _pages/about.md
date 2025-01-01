@@ -33,7 +33,7 @@ Analytical Methods Subcommittee (CAMS)](https://cmte.ieee.org/pes-cams/). He has
 been an Associate Editor of the [Journal of Modern Power Systems and Clean
 Energy](http://www.mpce.info) since 2019. He is a Senior Member of the IEEE.
 
-Cui's research include:
+Hantao Cui's research include:
 
 - Symbolic and numerical analysis in power systems
 - Cyber-physical system modeling, real-time simulation, and closed-loop control
@@ -42,6 +42,6 @@ Cui's research include:
 - Hardware-in-the-loop simulation, and real-time operating systems
 - Smart grid scheduling and operation under uncertainty
 
-He publishes research papers and open-source software for research.
+Hantao Cui publishes research papers and open-source software for research.
 Use the icons at the bottom of the page to checkout the most recent papers and tools.
 His CV is available [here](/cv/).
