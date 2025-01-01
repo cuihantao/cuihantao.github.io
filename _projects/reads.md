@@ -2,8 +2,11 @@
 layout: page
 title: Interesting reads
 description: The page collects interesting reads about energy systems, computing, and programming.
-
 img: /assets/img/proj_reads_icon.png
+importance: 2
+category: fun
+related_publications: false
+giscus_comments: true
 ---
 
 ## Power and Energy

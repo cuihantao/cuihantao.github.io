@@ -2,8 +2,11 @@
 layout: page
 title: CURENT Large-Scale Testbed
 description: The CURENT LTB for wide-area monitoring, modeling, control, and demonstration
-
 img: /assets/img/proj_ltb_icon.jpg
+importance: 1
+category: applied
+related_publications: true
+giscus_comments: true
 ---
 
 [Download the LTB Fact Sheet](/assets/pdf/Fact_Sheet_Tomsovic_Li_LTB.pdf)
