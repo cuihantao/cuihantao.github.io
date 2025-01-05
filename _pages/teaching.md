@@ -7,6 +7,11 @@ nav: true
 nav_order: 6
 ---
 
+North Carolina State University
+
+- [Spring 2025]
+  ECE 792 Special Topics in Power System Simulation and Software Implementation
+
 Oklahoma State University
 
 - [Spring 2023]
