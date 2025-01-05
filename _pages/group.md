@@ -42,9 +42,11 @@ sections:
 
       ### Ph.D. Students
       
-      - **Domestic students (U.S. permanent resident or citizen)**: We strongly encourage you to email Dr. Cui before applying, discussing your research interests and qualifications.
+      - **Domestic students (U.S. permanent resident or citizen)**: We encourage you to reach out to Dr. Cui to discuss your research interests and background before applying. This helps ensure alignment with our lab's focus areas.
 
-      - **International students**: While we appreciate your interest, due to the high volume of emails, we may not be able to respond to all inquiries. Please apply directly to the [NC State ECE graduate program](https://www.ece.ncsu.edu/grad/). Students with a M.S. degree is preferred, but we will consider highly motivated students with bachelor's degrees.
+
+      - **International students**: We welcome applications through the [NC State ECE graduate program](https://www.ece.ncsu.edu/grad/). While we receive many inquiries and may not respond to all emails, we carefully review all complete applications. Candidates with M.S. degrees are preferred, though exceptional students with bachelor's degrees are also considered.
+
 
 
       ### M.S. Students
