@@ -6,7 +6,13 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Hantao
 middle_name:
 last_name: Cui
-contact_note:
+contact_note: >
+  <div style="margin-top: 1rem; text-align: center;">
+  21 Keystone Science Center<br>
+  FREEDM Systems Center<br>
+  1791 Varsity Drive<br>
+  Raleigh, NC 27606
+  </div>
 email: cuihantao@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Hantao Cui's website.
