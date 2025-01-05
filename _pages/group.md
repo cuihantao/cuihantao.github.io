@@ -68,6 +68,8 @@ profiles:
     image: members/ahmad-ali.jpg
     content: members/ahmad-ali.md
     image_circular: true
+    category: phd
+    past: false
     more_info: >
       <p>Ahmad Ali</p>
       <p>Ph.D. Student of F'24</p>

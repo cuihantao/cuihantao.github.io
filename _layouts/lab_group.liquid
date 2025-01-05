@@ -6,6 +6,7 @@ layout: page
 .profile-image {
   max-width: 200px !important;
   width: 200px !important;
+  margin-bottom: 1rem;
 }
 
 .page-nav {
@@ -19,6 +20,78 @@ layout: page
   color: #9c27b0;
   text-decoration: none;
   font-size: 1.1rem;
+}
+
+.profile-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+}
+
+.profile-header {
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+.profile-name {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.profile-title {
+  font-size: 1.1rem;
+  color: #666;
+  margin: 0.5rem 0 0 0;
+}
+
+.profile-bio {
+  text-align: left;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.member-category {
+  color: #666;
+  font-size: 1.4rem;
+  margin: 2rem 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #eee;
+  font-weight: normal;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #333;
+  font-size: 1.8rem;
+  margin: 1.5rem 0 1rem;
+  font-weight: normal;
+}
+
+@media (max-width: 768px) {
+  .profile-container {
+    grid-template-columns: 1fr;
+  }
 }
 </style>
 
@@ -46,32 +119,110 @@ layout: page
           {% endif %}
 
           {% if section.title == "Lab Members" and page.profiles %}
-            <div class="profiles">
-              {% for profile in page.profiles %}
-                <hr>
-                <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
-                  {% if profile.image %}
-                    {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
-                    {% if profile.image_circular %}
-                      {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle profile-image' %}
-                    {% else %}
-                      {% assign profile_image_class = 'img-fluid z-depth-1 rounded profile-image' %}
-                    {% endif %}
-                    {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class alt=profile.image %}
-                  {% endif %}
-                  {% if profile.more_info %}
-                    <div class="more-info">{{ profile.more_info }}</div>
-                  {% endif %}
-                </div>
+            <h3>Current Members</h3>
+            {% assign categories = "postdoc,phd,master,undergraduate" | split: "," %}
+            {% for category in categories %}
+              {% assign current_members = page.profiles | where: "past", false | where: "category", category %}
+              {% if current_members.size > 0 %}
+                <h4 class="member-category">
+                  {% case category %}
+                    {% when "postdoc" %}Postdoctoral Scholars
+                    {% when "phd" %}Ph.D. Students
+                    {% when "master" %}M.S. Students
+                    {% when "undergraduate" %}Undergraduate Researchers
+                  {% endcase %}
+                </h4>
+                <div class="profile-container">
+                  {% for profile in current_members %}
+                    <div class="profile-card">
+                      <div class="profile-header">
+                        {% if profile.more_info %}
+                          {% assign info_lines = profile.more_info | split: "</p>" %}
+                          {% assign name = info_lines[0] | replace: "<p>", "" %}
+                          {% assign title = info_lines[1] | replace: "<p>", "" %}
+                          <h3 class="profile-name">{{ name }}</h3>
+                          <div class="profile-title">{{ title }}</div>
+                        {% endif %}
+                      </div>
 
-                <div class="clearfix">
-                  {% if profile.content %}
-                    {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
-                    {{ profile_content | markdownify }}
-                  {% endif %}
+                      {% if profile.image %}
+                        {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+                        {% if profile.image_circular %}
+                          {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle profile-image' %}
+                        {% else %}
+                          {% assign profile_image_class = 'img-fluid z-depth-1 rounded profile-image' %}
+                        {% endif %}
+                        {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class alt=profile.image %}
+                      {% endif %}
+
+                      <div class="profile-bio">
+                        {% if profile.content %}
+                          {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+                          {{ profile_content | markdownify }}
+                        {% endif %}
+                      </div>
+                    </div>
+                  {% endfor %}
                 </div>
+              {% endif %}
+            {% endfor %}
+
+            {% assign has_past_members = false %}
+            {% for profile in page.profiles %}
+              {% if profile.past %}
+                {% assign has_past_members = true %}
+                {% break %}
+              {% endif %}
+            {% endfor %}
+
+            {% if has_past_members %}
+              <h3>Alumni</h3>
+              {% for category in categories %}
+                {% assign past_members = page.profiles | where: "past", true | where: "category", category %}
+                {% if past_members.size > 0 %}
+                  <h4 class="member-category">
+                    {% case category %}
+                      {% when "postdoc" %}Postdoctoral Scholars
+                      {% when "phd" %}Ph.D. Students
+                      {% when "master" %}M.S. Students
+                      {% when "undergraduate" %}Undergraduate Researchers
+                    {% endcase %}
+                  </h4>
+                  <div class="profile-container">
+                    {% for profile in past_members %}
+                      <div class="profile-card">
+                        <div class="profile-header">
+                          {% if profile.more_info %}
+                            {% assign info_lines = profile.more_info | split: "</p>" %}
+                            {% assign name = info_lines[0] | replace: "<p>", "" %}
+                            {% assign title = info_lines[1] | replace: "<p>", "" %}
+                            <h3 class="profile-name">{{ name }}</h3>
+                            <div class="profile-title">{{ title }}</div>
+                          {% endif %}
+                        </div>
+
+                        {% if profile.image %}
+                          {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+                          {% if profile.image_circular %}
+                            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle profile-image' %}
+                          {% else %}
+                            {% assign profile_image_class = 'img-fluid z-depth-1 rounded profile-image' %}
+                          {% endif %}
+                          {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class alt=profile.image %}
+                        {% endif %}
+
+                        <div class="profile-bio">
+                          {% if profile.content %}
+                            {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+                            {{ profile_content | markdownify }}
+                          {% endif %}
+                        </div>
+                      </div>
+                    {% endfor %}
+                  </div>
+                {% endif %}
               {% endfor %}
-            </div>
+            {% endif %}
           {% endif %}
         {% endif %}
       {% endfor %}
