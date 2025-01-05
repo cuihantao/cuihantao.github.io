@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: research and fun projects
 nav: true
-nav_order: 3
+nav_order: 4
 display_categories: [theoretical, applied, fun]
 horizontal: false
 ---
