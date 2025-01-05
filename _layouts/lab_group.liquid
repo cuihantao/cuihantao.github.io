@@ -17,7 +17,7 @@ layout: page
 }
 
 .page-nav a {
-  color: #9c27b0;
+  color: var(--global-theme-color);
   text-decoration: none;
   font-size: 1.1rem;
 }
@@ -36,8 +36,9 @@ layout: page
   text-align: center;
   padding: 1.5rem;
   border-radius: 8px;
-  background: #fff;
-  box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+  background: var(--global-bg-color);
+  box-shadow: 0 2px 15px var(--global-shadow-color);
+  border: 1px solid var(--global-divider-color);
 }
 
 .profile-header {
@@ -48,14 +49,14 @@ layout: page
 .profile-name {
   font-size: 1.8rem;
   font-weight: 600;
-  color: #1a1a1a;
+  color: var(--global-text-color);
   margin: 0;
   line-height: 1.2;
 }
 
 .profile-title {
   font-size: 1.1rem;
-  color: #666;
+  color: var(--global-text-color-light);
   margin: 0.5rem 0 0 0;
 }
 
@@ -64,28 +65,33 @@ layout: page
   margin-top: 1.5rem;
   font-size: 1rem;
   line-height: 1.6;
-  color: #333;
+  color: var(--global-text-color);
 }
 
 .member-category {
-  color: #666;
+  color: var(--global-text-color);
   font-size: 1.4rem;
   margin: 2rem 0 1rem;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid #eee;
+  border-bottom: 2px solid var(--global-divider-color);
   font-weight: normal;
 }
 
 h2 {
   margin-bottom: 1rem;
   font-weight: normal;
+  color: var(--global-text-color);
 }
 
 h3 {
-  color: #333;
+  color: var(--global-text-color);
   font-size: 1.8rem;
   margin: 1.5rem 0 1rem;
   font-weight: normal;
+}
+
+h4 {
+  color: var(--global-text-color);
 }
 
 @media (max-width: 768px) {
