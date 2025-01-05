@@ -40,23 +40,26 @@ sections:
       The GridCI Lab is part of the [NC State ECE Department](https://www.ece.ncsu.edu/). Prospective students should apply through the department's graduate admissions process.
 
 
-      **Ph.D. Students:**
+      ### Ph.D. Students
       
       - **Domestic students (U.S. permanent resident or citizen)**: We strongly encourage you to email Dr. Cui before applying, discussing your research interests and qualifications.
 
       - **International students**: While we appreciate your interest, due to the high volume of emails, we may not be able to respond to all inquiries. Please apply directly to the [NC State ECE graduate program](https://www.ece.ncsu.edu/grad/). Students with a M.S. degree is preferred, but we will consider highly motivated students with bachelor's degrees.
 
-      **M.S. Students:**
+
+      ### M.S. Students
 
       
       Research positions are available, but funding is limited for international students. For domestic NC State MS-EPSE students interested in research, there may be potential for funding. Please reach out to discuss opportunities.
 
-      **Undergraduate Researchers:**
+
+      ### Undergraduate Researchers
 
       
       We always have positions available for motivated undergraduates. Please email Dr. Cui to schedule a meeting and discuss potential projects.
 
-      **Postdoctoral Scholars:**
+
+      ### Postdoctoral Scholars
       
       We seek candidates with a strong publication record in power system stability, dynamics, simulation, and related fields. Our focus is on quality research that advances the field, not just quantity of papers. If you have a passion for rigorous, impactful work, please contact Dr. Cui with your CV and research statement.
 

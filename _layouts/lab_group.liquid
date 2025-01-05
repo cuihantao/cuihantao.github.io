@@ -7,44 +7,72 @@ layout: page
   max-width: 200px !important;
   width: 200px !important;
 }
+
+.page-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.page-nav a {
+  color: #9c27b0;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
 </style>
 
 <div class="post">
   <article>
     {% if page.sections %}
+      {% comment %}First generate table of contents{% endcomment %}
+      <h2 hidden=true>Contents</h2>
+      <nav class="page-nav">
+        {% for section in page.sections %}
+          {% if section.title != "Contents" %}
+            {% assign section_id = section.title | downcase | replace: " ", "-" %}
+            <a href="#{{ section_id }}">{{ section.title }}</a>
+          {% endif %}
+        {% endfor %}
+      </nav>
+
+      {% comment %}Then render the sections{% endcomment %}
       {% for section in page.sections %}
-        <h2>{{ section.title }}</h2>
-        {% if section.content %}
-          {{ section.content | markdownify }}
-        {% endif %}
+        {% if section.title != "Contents" %}
+          {% assign section_id = section.title | downcase | replace: " ", "-" %}
+          <h2 id="{{ section_id }}">{{ section.title }}</h2>
+          {% if section.content %}
+            {{ section.content | markdownify }}
+          {% endif %}
 
-        {% if section.title == "Lab Members" and page.profiles %}
-          <div class="profiles">
-            {% for profile in page.profiles %}
-              <hr>
-              <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
-                {% if profile.image %}
-                  {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
-                  {% if profile.image_circular %}
-                    {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle profile-image' %}
-                  {% else %}
-                    {% assign profile_image_class = 'img-fluid z-depth-1 rounded profile-image' %}
+          {% if section.title == "Lab Members" and page.profiles %}
+            <div class="profiles">
+              {% for profile in page.profiles %}
+                <hr>
+                <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
+                  {% if profile.image %}
+                    {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+                    {% if profile.image_circular %}
+                      {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle profile-image' %}
+                    {% else %}
+                      {% assign profile_image_class = 'img-fluid z-depth-1 rounded profile-image' %}
+                    {% endif %}
+                    {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class alt=profile.image %}
                   {% endif %}
-                  {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class alt=profile.image %}
-                {% endif %}
-                {% if profile.more_info %}
-                  <div class="more-info">{{ profile.more_info }}</div>
-                {% endif %}
-              </div>
+                  {% if profile.more_info %}
+                    <div class="more-info">{{ profile.more_info }}</div>
+                  {% endif %}
+                </div>
 
-              <div class="clearfix">
-                {% if profile.content %}
-                  {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
-                  {{ profile_content | markdownify }}
-                {% endif %}
-              </div>
-            {% endfor %}
-          </div>
+                <div class="clearfix">
+                  {% if profile.content %}
+                    {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+                    {{ profile_content | markdownify }}
+                  {% endif %}
+                </div>
+              {% endfor %}
+            </div>
+          {% endif %}
         {% endif %}
       {% endfor %}
     {% endif %}
