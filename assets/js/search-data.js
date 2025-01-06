@@ -37,7 +37,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "dropdown-software",
+        },{id: "dropdown-powercyber-training",
+              title: "PowerCyber Training",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "";
+              },
+            },{id: "dropdown-software",
               title: "software",
               description: "",
               section: "Dropdown",
