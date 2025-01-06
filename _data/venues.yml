@@ -7,3 +7,71 @@
 
 "Vision":
   color: "#009f36"
+
+"TPWRS":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=59
+  color: "#4472C4"
+
+"TSG":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5165411
+  color: "#4472C4"
+
+"TEC":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=60
+  color: "#4472C4"
+
+"OAJPE":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8784099
+  color: "#4472C4"
+
+"TSTE":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5165391
+  color: "#4472C4"
+
+"arXiv":
+  url: https://arxiv.org
+  color: "#B31B1B"
+
+"NAPS":
+  url: https://ieeexplore.ieee.org/xpl/conhome/1000508/all-proceedings
+  color: "#4472C4"
+
+"TD":
+  url: https://www.ieee-pes.org/meetings-and-conferences/conference-calendar/monthly-view/168-2024-ieee-pes-td
+  color: "#4472C4"
+
+"PESGM":
+  url: https://pes-gm.org/
+  color: "#4472C4"
+
+"NatComm":
+  url: https://www.nature.com/ncomms/
+  color: "#006838"
+
+"WENE":
+  url: https://wires.onlinelibrary.wiley.com/journal/19424022
+  color: "#000000"
+
+"PIEEE":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5
+  color: "#4472C4"
+
+"PEMAG":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6570655
+  color: "#4472C4"
+
+"AE":
+  url: https://www.sciencedirect.com/journal/applied-energy
+  color: "#F39B7F"
+
+"ESI":
+  url: https://digital-library.theiet.org/content/journals/iet-esi
+  color: "#330072"
+
+"IJEPES":
+  url: https://www.sciencedirect.com/journal/international-journal-of-electrical-power-and-energy-systems
+  color: "#F39B7F"
+
+"CSEE-JPES":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6687316
+  color: "#4472C4"
