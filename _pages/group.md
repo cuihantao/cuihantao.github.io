@@ -63,7 +63,7 @@ sections:
 
       ### Postdoctoral Scholars
       
-      We seek candidates with a strong publication record in power system stability, dynamics, simulation, and related fields. Our focus is on quality research that advances the field, not just quantity of papers. If you have a passion for rigorous, impactful work, please contact Dr. Cui with your CV and research statement.
+      We welcome candidates with demonstrated research experience in power system stability, dynamics, simulation, and related fields. Our lab values rigorous, innovative work that advances the field and creates lasting impact. If you are passionate about developing next-generation power system solutions and share our commitment to excellence, please contact Dr. Cui with your CV and research statement.
 
 profiles:
   - align: right
