@@ -10,8 +10,8 @@ profile:
   image_circular: true # crops the image to make it circular
   more_info: >
     <div style="white-space: nowrap;">
-    <p>Electrical and Computer Engineering</p><br>
-    <p>North Carolina State University</p>
+    <p class="department-name">Electrical and Computer Engineering</p><br>
+    <p class="university-name"><span class="nc-state">NC STATE</span> <span class="university">UNIVERSITY</span></p>
     </div>
     <p><a href="/cv/">Curriculum Vitae</a></p>
 
