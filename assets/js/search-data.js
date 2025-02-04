@@ -211,7 +211,12 @@ ninja.data = [{
             },},{id: "news-our-paper-titled-evaluating-the-equivalent-inertia-of-grid-following-and-grid-forming-inverter-based-resources-accepted-by-the-ieee-transactions-on-energy-conversion-view-the-paper-on-ieee-xplore",
           title: 'Our paper titled “Evaluating the Equivalent Inertia of Grid-Following and Grid-Forming Inverter-Based Resources”...',
           description: "",
-          section: "News",},{id: "projects-curent-large-scale-testbed",
+          section: "News",},{id: "news-ieee-oajpe-best-paper-award",
+          title: 'IEEE OAJPE Best Paper Award',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/202501-oajpe-best-paper/";
+            },},{id: "projects-curent-large-scale-testbed",
           title: 'CURENT Large-Scale Testbed',
           description: "The CURENT LTB for wide-area monitoring, modeling, control, and demonstration",
           section: "Projects",handler: () => {
