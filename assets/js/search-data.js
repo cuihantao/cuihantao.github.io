@@ -216,6 +216,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/202501-oajpe-best-paper/";
+            },},{id: "news-jinning-39-s-paper-on-a-new-open-source-co-simulation-tool-is-published-in-ieee-trans-on-sustainable-energy",
+          title: 'Jinning&amp;#39;s paper on a new open-source co-simulation tool is published in IEEE Trans....',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/202502-jinning-ams/";
             },},{id: "news-ahmad-s-paper-titled-improving-numerical-stability-and-accuracy-in-partitioned-methods-with-algebraic-prediction-has-been-accepted-for-publication-at-the-2025-ieee-pes-general-meeting-see-arxiv",
           title: 'Ahmad’s paper titled “Improving Numerical Stability and Accuracy in Partitioned Methods with Algebraic...',
           description: "",
