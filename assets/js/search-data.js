@@ -211,12 +211,18 @@ ninja.data = [{
             },},{id: "news-our-paper-titled-evaluating-the-equivalent-inertia-of-grid-following-and-grid-forming-inverter-based-resources-accepted-by-the-ieee-transactions-on-energy-conversion-view-the-paper-on-ieee-xplore",
           title: 'Our paper titled “Evaluating the Equivalent Inertia of Grid-Following and Grid-Forming Inverter-Based Resources”...',
           description: "",
-          section: "News",},{id: "news-ieee-oajpe-best-paper-award",
-          title: 'IEEE OAJPE Best Paper Award',
+          section: "News",},{id: "news-2024-ieee-oajpe-best-paper-award",
+          title: '2024 IEEE OAJPE Best Paper Award',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/202501-oajpe-best-paper/";
-            },},{id: "projects-curent-large-scale-testbed",
+            },},{id: "news-ahmad-s-paper-titled-improving-numerical-stability-and-accuracy-in-partitioned-methods-with-algebraic-prediction-has-been-accepted-for-publication-at-the-2025-ieee-pes-general-meeting-see-arxiv",
+          title: 'Ahmad’s paper titled “Improving Numerical Stability and Accuracy in Partitioned Methods with Algebraic...',
+          description: "",
+          section: "News",},{id: "news-zaid-s-paper-titled-a-virtual-admittance-based-fault-current-limiting-method-for-grid-forming-inverters-has-been-accepted-for-publication-at-the-2025-ieee-pes-general-meeting",
+          title: 'Zaid’s paper titled “A Virtual Admittance-Based Fault Current Limiting Method for Grid-Forming Inverters”...',
+          description: "",
+          section: "News",},{id: "projects-curent-large-scale-testbed",
           title: 'CURENT Large-Scale Testbed',
           description: "The CURENT LTB for wide-area monitoring, modeling, control, and demonstration",
           section: "Projects",handler: () => {
