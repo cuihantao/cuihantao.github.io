@@ -9,6 +9,8 @@ My former PhD student Zaid Ibn Mahmood has received the 2025 OSU Graduate Resear
 
 Zaid is co-advised by Dr. Ying Zhang and Dr. Hantao Cui, and his work continues to make a significant impact within the School of Electrical and Computer Engineering at Oklahoma State University.
 
-Zaid joined Oklahoma State University in Spring 2022 and has been working on grid-forming inverters. He has published one journal paper and two conference papers. 
+Zaid joined Oklahoma State University in Spring 2022 and has been working on grid-forming inverters. He has published one journal paper and two conference papers.
+
+Congratulations to Zaid for this distinguished award at OSU!
 
 See the news on [LinkedIn](https://www.linkedin.com/posts/osu-ece_researchexcellence-graduateaward-osuece-activity-7323464637390225409-DQUu).
