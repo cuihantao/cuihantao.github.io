@@ -230,7 +230,12 @@ ninja.data = [{
           section: "News",},{id: "news-dr-cui-gave-a-presentation-on-pathway-towards-an-open-source-ecosystem-for-power-engineering-at-the-2025-freedm-symposium-the-slides-can-be-found-here",
           title: 'Dr. Cui gave a presentation on Pathway Towards an Open-Source Ecosystem for Power...',
           description: "",
-          section: "News",},{id: "projects-curent-large-scale-testbed",
+          section: "News",},{id: "news-zaid-ibn-mahmood-receives-2025-graduate-research-excellence-award-at-osu",
+          title: 'Zaid Ibn Mahmood receives 2025 Graduate Research Excellence Award at OSU',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/202505-zaid-award/";
+            },},{id: "projects-curent-large-scale-testbed",
           title: 'CURENT Large-Scale Testbed',
           description: "The CURENT LTB for wide-area monitoring, modeling, control, and demonstration",
           section: "Projects",handler: () => {
