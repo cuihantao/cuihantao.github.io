@@ -9,6 +9,9 @@ nav_order: 6
 
 North Carolina State University
 
+- [Fall 2025]
+    ECE 211 (Electric Circuits)
+
 - [Spring 2025]
   ECE 792 Special Topics in Power System Simulation and Software Implementation
 
