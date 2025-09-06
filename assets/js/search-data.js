@@ -256,6 +256,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025/202506-pose-paper/";
+            },},{id: "news-ieee-pes-technical-committee-prize-paper-award-for-paper",
+          title: 'IEEE PES Technical Committee Prize Paper Award for paper',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2025/202507-paper-award/";
             },},{id: "news-zaid-ibn-mahmood-receives-best-poster-award-at-2025-ieee-pes-general-meeting",
           title: 'Zaid Ibn Mahmood receives Best Poster Award at 2025 IEEE PES General Meeting...',
           description: "",
@@ -264,7 +269,12 @@ ninja.data = [{
             },},{id: "news-powerci-lab-welcomes-four-new-phd-students",
           title: 'PowerCI Lab welcomes four new PhD students.',
           description: "",
-          section: "News",},{id: "news-powercyber-training-is-now-available-at-https-powerct-eecps-com",
+          section: "News",},{id: "news-dr-cui-is-selected-as-a-gulf-research-program-early-career-fellow",
+          title: 'Dr. Cui is selected as a Gulf Research Program Early Career Fellow',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2025/202509-gulf-research-ecrf/";
+            },},{id: "news-powercyber-training-is-now-available-at-https-powerct-eecps-com",
           title: 'PowerCyber Training is now available at https://powerct.eecps.com',
           description: "",
           section: "News",handler: () => {
