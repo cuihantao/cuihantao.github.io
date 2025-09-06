@@ -269,8 +269,8 @@ ninja.data = [{
             },},{id: "news-powerci-lab-welcomes-four-new-phd-students",
           title: 'PowerCI Lab welcomes four new PhD students.',
           description: "",
-          section: "News",},{id: "news-dr-cui-is-selected-as-a-gulf-research-program-early-career-fellow",
-          title: 'Dr. Cui is selected as a Gulf Research Program Early Career Fellow',
+          section: "News",},{id: "news-dr-cui-is-selected-as-a-national-academy-gulf-research-program-early-career-fellow",
+          title: 'Dr. Cui is selected as a National Academy Gulf Research Program Early Career...',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025/202509-gulf-research-ecrf/";
