@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-group",
           title: "group",
-          description: "Grid CyberInfrastructure Lab (GridCI)",
+          description: "Power CyberInfrastructure Lab (PowerCI)",
           section: "Navigation",
           handler: () => {
             window.location.href = "/group/";
@@ -42,14 +42,14 @@ ninja.data = [{
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "";
+                window.location.href = "https://powerct.eecps.com";
               },
             },{id: "dropdown-software",
               title: "software",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "";
+                window.location.href = "/software/";
               },
             },{id: "dropdown-blog",
               title: "blog",
@@ -58,7 +58,23 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "news-my-first-author-paper-titled-day-ahead-coordinated-operation-of-utility-scale-electricity-and-natural-gas-networks-considering-demand-response-based-virtual-power-plants-accepted-by-applied-energy",
+            },{id: "post-a-post-with-plotly-js",
+        
+          title: "a post with plotly.js",
+        
+        description: "this is what included plotly.js code could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/plotly/";
+          
+        },
+      },{id: "books-the-godfather",
+          title: 'The Godfather',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_godfather/";
+            },},{id: "news-my-first-author-paper-titled-day-ahead-coordinated-operation-of-utility-scale-electricity-and-natural-gas-networks-considering-demand-response-based-virtual-power-plants-accepted-by-applied-energy",
           title: 'My first-author paper titled Day-ahead coordinated operation of utility-scale electricity and natural gas...',
           description: "",
           section: "News",},{id: "news-my-first-author-paper-titled-bilevel-arbitrage-potential-evaluation-for-grid-scale-energy-storage-considering-wind-power-and-lmp-smoothing-effect-published-on-ieee-transactions-on-sustainable-energy",
@@ -68,7 +84,7 @@ ninja.data = [{
           title: 'Paper Accepted by IEEE Transactions on Power Systems',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/2018-shi-tpwrs/";
+              window.location.href = "/news/pre-2021/2018-shi-tpwrs/";
             },},{id: "news-attended-the-2018-ieee-pes-t-amp-amp-d-conference-in-denver-co",
           title: 'Attended the 2018 IEEE PES T&amp;amp;amp;D Conference in Denver, CO.',
           description: "",
@@ -94,7 +110,7 @@ ninja.data = [{
           title: 'ANDES Version 1.0.0 Released.',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/2020-andes-release/";
+              window.location.href = "/news/pre-2021/2020-andes-release/";
             },},{id: "news-our-recent-paper-mass-matrix-differential-algebraic-equation-formulation-for-transient-stability-simulation-is-available-on-arxiv",
           title: 'Our recent paper “Mass-Matrix Differential-Algebraic Equation Formulation for Transient Stability Simulation” is available...',
           description: "",
@@ -105,12 +121,12 @@ ninja.data = [{
           title: 'ANDES Version 1.1.0 released highlighting renewable generation models.',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/2020-andes-renewables/";
+              window.location.href = "/news/pre-2021/2020-andes-renewables/";
             },},{id: "news-curent-ltb-won-the-2020-r-amp-d-100-award",
           title: 'CURENT LTB won the 2020 R&amp;amp;D 100 Award.',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/2020-rd100-award/";
+              window.location.href = "/news/pre-2021/2020-rd100-award/";
             },},{id: "news-i-am-elevated-to-an-ieee-senior-member",
           title: 'I am elevated to an IEEE Senior Member.',
           description: "",
@@ -121,7 +137,7 @@ ninja.data = [{
           title: 'I will join Oklahoma State University as an assistant professor.',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/2021-joining-osu/";
+              window.location.href = "/news/2021/2021-joining-osu/";
             },},{id: "news-our-letter-effective-parallelism-for-equation-and-jacobian-evaluation-in-large-scale-power-flow-calculation-has-been-accepted-by-ieee-transactions-on-power-systems-preprint-available-on-arxiv",
           title: 'Our letter “Effective Parallelism for Equation and Jacobian Evaluation in Large-Scale Power Flow...',
           description: "",
@@ -156,7 +172,7 @@ ninja.data = [{
           title: 'Our proposal &amp;quot;High-Performance Transient Stability Simulation of Power Systems on Modern Parallel Computing...',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/202208-nsf-hypertran/";
+              window.location.href = "/news/2022/202208-nsf-hypertran/";
             },},{id: "news-our-new-research-investigates-how-covid-19-impacts-the-consumption-of-electricity-in-the-us-check-out-the-paper-here-electricity-consumption-variation-versus-economic-structure-during-covid-19-on-metropolitan-statistical-areas-in-the-us-on-nature-communications",
           title: 'Our new research investigates how COVID-19 impacts the consumption of electricity in the...',
           description: "",
@@ -170,7 +186,7 @@ ninja.data = [{
           title: 'CyberTraining project funded by National Science Foundation.',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/202308-cybertraining/";
+              window.location.href = "/news/2023/202308-cybertraining/";
             },},{id: "news-our-paper-titled-power-sharing-based-framework-for-allocating-automatic-generation-control-in-distributed-energy-resources-is-accepted-by-the-2024-ieee-pes-t-amp-amp-d-conference-congrats-to-ahmad",
           title: 'Our paper titled “Power Sharing-Based Framework for Allocating Automatic Generation Control in Distributed...',
           description: "",
@@ -178,7 +194,7 @@ ninja.data = [{
           title: 'Cui receives the NSF CAREER Award.',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/202312-nsf-career/";
+              window.location.href = "/news/2023/202312-nsf-career/";
             },},{id: "news-our-paper-titled-bus-admittance-matrix-revisited-performance-challenges-on-modern-computers-is-published-in-the-ieee-open-journal-of-power-and-energy-ieeexplore-source-code-is-available-in-software",
           title: 'Our paper titled “Bus Admittance Matrix Revisited: Performance Challenges on Modern Computers” is...',
           description: "",
@@ -192,22 +208,22 @@ ninja.data = [{
           title: 'Paper &amp;quot;Impact of Reordering on the LU Factorization Performance of Bordered Block-Diagonal Sparse...',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/202410-haya-naps-paper/";
+              window.location.href = "/news/2024/202410-haya-naps-paper/";
             },},{id: "news-nc-state-university-will-host-the-2027-north-american-power-symposium-naps",
           title: 'NC State University will host the 2027 North American Power Symposium (NAPS).',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/202410-nc-state-to-host-2027-naps/";
+              window.location.href = "/news/2024/202410-nc-state-to-host-2027-naps/";
             },},{id: "news-dr-cui-gave-a-talk-to-the-ieee-yp-phoenix-chapter-titled-quot-the-pursuit-for-a-generalized-simulation-framework-for-power-system-transients-and-stability-quot",
           title: 'Dr. Cui gave a talk to the IEEE YP Phoenix Chapter titled &amp;quot;The...',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/202410-ieee-yp-phoenix-talk/";
+              window.location.href = "/news/2024/202410-ieee-yp-phoenix-talk/";
             },},{id: "news-dr-cui-39-s-team-wins-runner-up-in-doe-39-s-3d-solar-visibility-competition",
           title: 'Dr. Cui&amp;#39;s Team Wins Runner-Up in DOE&amp;#39;s 3D Solar Visibility Competition!',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/202411-cui-3d-visibility-prize/";
+              window.location.href = "/news/2024/202411-cui-3d-visibility-prize/";
             },},{id: "news-our-paper-titled-evaluating-the-equivalent-inertia-of-grid-following-and-grid-forming-inverter-based-resources-accepted-by-the-ieee-transactions-on-energy-conversion-view-the-paper-on-ieee-xplore",
           title: 'Our paper titled “Evaluating the Equivalent Inertia of Grid-Following and Grid-Forming Inverter-Based Resources”...',
           description: "",
@@ -215,12 +231,12 @@ ninja.data = [{
           title: '2024 IEEE OAJPE Best Paper Award',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/202501-oajpe-best-paper/";
+              window.location.href = "/news/2025/202501-oajpe-best-paper/";
             },},{id: "news-jinning-39-s-paper-on-a-new-open-source-co-simulation-tool-is-published-in-ieee-trans-on-sustainable-energy",
           title: 'Jinning&amp;#39;s paper on a new open-source co-simulation tool is published in IEEE Trans....',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/202502-jinning-ams/";
+              window.location.href = "/news/2025/202502-jinning-ams/";
             },},{id: "news-ahmad-s-paper-titled-improving-numerical-stability-and-accuracy-in-partitioned-methods-with-algebraic-prediction-has-been-accepted-for-publication-at-the-2025-ieee-pes-general-meeting-see-arxiv",
           title: 'Ahmad’s paper titled “Improving Numerical Stability and Accuracy in Partitioned Methods with Algebraic...',
           description: "",
@@ -234,7 +250,17 @@ ninja.data = [{
           title: 'Zaid Ibn Mahmood receives 2025 Graduate Research Excellence Award at OSU',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/202505-zaid-award/";
+              window.location.href = "/news/2025/202505-zaid-award/";
+            },},{id: "news-paper-quot-pathway-toward-an-open-source-ecosystem-in-power-systems-quot-published-in-ieee-electrification-magazine",
+          title: 'Paper &amp;quot;Pathway Toward an Open Source Ecosystem in Power Systems&amp;quot; published in IEEE...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2025/202506-pose-paper/";
+            },},{id: "news-zaid-ibn-mahmood-receives-best-poster-award-at-2025-ieee-pes-general-meeting",
+          title: 'Zaid Ibn Mahmood receives Best Poster Award at 2025 IEEE PES General Meeting...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2025/202507-zaid-poster-award/";
             },},{id: "projects-curent-large-scale-testbed",
           title: 'CURENT Large-Scale Testbed',
           description: "The CURENT LTB for wide-area monitoring, modeling, control, and demonstration",
