@@ -6,7 +6,8 @@ title: PowerCyber Training is now available at https://powerct.eecps.com
 ---
 
 After over a year of development, PowerCyber Training is now available at
-https://powerct.eecps.com. The current materials introduce Linux-based
+[https://powerct.eecps.com](https://powerct.eecps.com). The current materials
+introduce Linux-based
 environments and Python programming language to power system students and
 engineers. 
 
