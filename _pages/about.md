@@ -43,7 +43,7 @@ Analytical Methods Subcommittee (CAMS)](https://cmte.ieee.org/pes-cams/) and has
 been an Associate Editor of the [Journal of Modern Power Systems and Clean
 Energy](http://www.mpce.info) since 2019. He is a Senior Member of the IEEE.
 
-Dr. Cui leads the Grid CyberInfrastructure (GridCI) Lab at NC State with a
+Dr. Cui leads the Power CyberInfrastructure (PowerCI) Lab at NC State with a
 vision of a secure, resilient, and sustainable future power grid through
 advanced computational methods and cyber-physical system integration. The lab
 distinguishes itself through open science, developing next-generation
@@ -53,7 +53,7 @@ commitment is demonstrated through widely-used open-source tools like
 [PowerCyber Training](https://powercybertraining.github.io) to serve the broader
 power systems community. 
 
-The GridCI Lab welcomes students and researchers who are passionate about power
+The PowerCI Lab welcomes students and researchers who are passionate about power
 systems and computational methods, particularly those interested in both
 theoretical foundations and practical implementations. To learn more about who
 we are, what we do, and how to join our lab, please visit our [group page](/group/).

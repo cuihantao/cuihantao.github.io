@@ -2,14 +2,14 @@
 layout: lab_group
 permalink: /group/
 title: group
-description: Grid CyberInfrastructure Lab (GridCI)
+description: Power CyberInfrastructure Lab (PowerCI)
 nav: true
 nav_order: 2
 
 sections:
   - title: Research Mission
     content: >
-      The GridCI Lab develops open-source computational tools and methods for next-generation power systems. 
+      The PowerCI Lab develops open-source computational tools and methods for next-generation power systems. 
       Through projects like ANDES and PowerCyber Training, we create accessible, reproducible, and efficient 
       platforms that serve both power system research and education.
 
@@ -37,7 +37,7 @@ sections:
       We welcome students with a genuine interest in electrical engineering and computer software who are self-motivated. Successful candidates typically have backgrounds in power systems, power electronics, control, and automation, along with a solid math foundation and demonstrable programming skills. Knowledge of machine learning is a plus. Contact Dr. Cui with your CV and research interests, highlighting relevant experience.
 
 
-      The GridCI Lab is part of the [NC State ECE Department](https://www.ece.ncsu.edu/). Prospective students should apply through the department's graduate admissions process.
+      The PowerCI Lab is part of the [NC State ECE Department](https://www.ece.ncsu.edu/). Prospective students should apply through the department's graduate admissions process.
 
 
       ### Ph.D. Students
