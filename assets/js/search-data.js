@@ -261,6 +261,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025/202507-zaid-poster-award/";
+            },},{id: "news-powercyber-training-is-now-available-at-https-powerct-eecps-com",
+          title: 'PowerCyber Training is now available at https://powerct.eecps.com',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2025/202509-powercybertraining/";
             },},{id: "projects-curent-large-scale-testbed",
           title: 'CURENT Large-Scale Testbed',
           description: "The CURENT LTB for wide-area monitoring, modeling, control, and demonstration",
