@@ -21,7 +21,7 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 7 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: true
@@ -29,9 +29,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hantao Cui is an associate professor of Electrical and Computer Engineering at
-North Carolina State University. Prior to joining NC State, he was an assistant
-professor at Oklahoma State University from 2021 to 2024. He earned his Ph.D. in
+Hantao Cui is an Associate Professor of Electrical and Computer Engineering at
+North Carolina State University. Prior to joining NC State, he was an Assistant
+Professor at Oklahoma State University from 2021 to 2024. He earned his Ph.D. in
 Electrical Engineering from the University of Tennessee, Knoxville (2018),
 following his M.S. (2013) and B.S. (2011) in the same field from Southeast
 University, China. He is the author of [ANDES](https://github.com/curent/andes)
