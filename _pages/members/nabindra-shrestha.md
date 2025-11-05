@@ -1,0 +1,1 @@
+Nabindra Raj Shrestha is a Ph.D. student at North Carolina State University. His research focuses on real-time monitoring and control of inverter-dominated power systems. He brings expertise in power system dynamics and control to the PowerCI Lab.

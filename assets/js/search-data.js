@@ -266,8 +266,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025/202507-zaid-poster-award/";
-            },},{id: "news-powerci-lab-welcomes-four-new-phd-students",
-          title: 'PowerCI Lab welcomes four new PhD students.',
+            },},{id: "news-powerci-lab-welcomes-four-new-phd-students-nabindra-raj-shrestha-teng-wang-zhuorong-wang-and-zilin-zhuang",
+          title: 'PowerCI Lab welcomes four new PhD students: Nabindra Raj Shrestha, Teng Wang, Zhuorong...',
           description: "",
           section: "News",},{id: "news-dr-cui-is-selected-as-a-national-academy-gulf-research-program-early-career-fellow",
           title: 'Dr. Cui is selected as a National Academy Gulf Research Program Early Career...',
@@ -279,7 +279,16 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025/202509-powercybertraining/";
-            },},{id: "projects-curent-large-scale-testbed",
+            },},{id: "news-dr-cui-presented-the-andes-journey-ten-years-of-open-source-innovation-in-power-systems-at-the-2025-informs-annual-meeting-in-atlanta-the-talk-covered-sustainability-challenges-in-specialized-open-source-software-and-the-impact-of-ai-on-scientific-computing-see-slides",
+          title: 'Dr. Cui presented “The ANDES Journey: Ten Years of Open-Source Innovation in Power...',
+          description: "",
+          section: "News",},{id: "news-dr-cui-attended-the-caper-annual-meeting-learn-more-about-caper",
+          title: 'Dr. Cui attended the CAPER Annual Meeting. Learn more about CAPER.',
+          description: "",
+          section: "News",},{id: "news-the-syllabus-for-ece-792-special-topics-in-power-system-simulation-and-software-engineering-spring-2026-is-now-available-see-the-course-page",
+          title: 'The syllabus for ECE 792 Special Topics in Power System Simulation and Software...',
+          description: "",
+          section: "News",},{id: "projects-curent-large-scale-testbed",
           title: 'CURENT Large-Scale Testbed',
           description: "The CURENT LTB for wide-area monitoring, modeling, control, and demonstration",
           section: "Projects",handler: () => {
