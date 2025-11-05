@@ -75,4 +75,40 @@ profiles:
     more_info: >
       <p>Ahmad Ali</p>
       <p>Ph.D. Student of F'24</p>
+  - align: right
+    image: members/nabindra-shrestha.jpg
+    content: members/nabindra-shrestha.md
+    image_circular: true
+    category: phd
+    past: false
+    more_info: >
+      <p>Nabindra Raj Shrestha</p>
+      <p>Ph.D. Student of F'25</p>
+  - align: right
+    image: members/teng-wang.jpg
+    content: members/teng-wang.md
+    image_circular: true
+    category: phd
+    past: false
+    more_info: >
+      <p>Teng Wang</p>
+      <p>Ph.D. Student of F'24</p>
+  - align: right
+    image: members/zhuorong-wang.jpg
+    content: members/zhuorong-wang.md
+    image_circular: true
+    category: phd
+    past: false
+    more_info: >
+      <p>Zhuorong Wang</p>
+      <p>Ph.D. Student of F'25</p>
+  - align: right
+    image: members/zilin-zhuang.jpg
+    content: members/zilin-zhuang.md
+    image_circular: true
+    category: phd
+    past: false
+    more_info: >
+      <p>Zilin Zhuang</p>
+      <p>Ph.D. Student of F'25</p>
 ---

@@ -9,11 +9,14 @@ nav_order: 6
 
 North Carolina State University
 
+- [Spring 2026]
+  [ECE 792 - Special Topics in Power System Simulation and Software Engineering](/courses/ece792-spring2026/)
+
 - [Fall 2025]
     ECE 211 (Electric Circuits)
 
 - [Spring 2025]
-  ECE 792 Special Topics in Power System Simulation and Software Implementation
+  ECE 792 Special Topics in Power System Simulation and Software Engineering
 
 Oklahoma State University
 

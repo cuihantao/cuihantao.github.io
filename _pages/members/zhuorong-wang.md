@@ -1,0 +1,1 @@
+Zhuorong Wang received her master's degree in electrical engineering from North China Electric Power University (China) in 2024 and her bachelor's degree from Taiyuan University of Technology (China) in 2021. She is currently a PhD student at NC State University. Her research interests lie in applying machine learning to accelerate power system analysis and simulation.
