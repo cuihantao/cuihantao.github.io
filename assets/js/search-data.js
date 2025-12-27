@@ -293,6 +293,11 @@ ninja.data = [{
           description: "The CURENT LTB for wide-area monitoring, modeling, control, and demonstration",
           section: "Projects",handler: () => {
               window.location.href = "/projects/curent-ltb/";
+            },},{id: "projects-powerfulcases",
+          title: 'PowerfulCases',
+          description: "Test case data for power systems simulation - works with Julia and Python",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/powerfulcases/";
             },},{id: "projects-interesting-reads",
           title: 'Interesting reads',
           description: "The page collects interesting reads about energy systems, computing, and programming.",
