@@ -29,7 +29,7 @@ end
 group :other_plugins do
     gem 'css_parser'
     gem 'feedjira'
-    gem 'httparty'
+    # gem 'httparty'  # Disabled due to CVE-2025-68696 (SSRF vulnerability, no fix available)
     gem 'observer'       # used by jekyll-scholar
     gem 'ostruct'        # used by jekyll-twitter-plugin
     # gem 'terser'         # used by jekyll-terser
