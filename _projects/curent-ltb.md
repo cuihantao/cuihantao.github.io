@@ -3,7 +3,7 @@ layout: page
 title: CURENT Large-Scale Testbed
 description: The CURENT LTB for wide-area monitoring, modeling, control, and demonstration
 img: /assets/img/proj_ltb_icon.jpg
-importance: 1
+importance: 2
 category: applied
 related_publications: true
 giscus_comments: true
