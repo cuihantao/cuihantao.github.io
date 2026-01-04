@@ -4,4 +4,4 @@ date: 2026-01-04 00:00:00-0500
 inline: true
 ---
 
-Released [PowerDynData.jl](https://github.com/cuihantao/PowerDynData.jl), a Julia package for parsing PSS/E dynamic data files with metadata-driven field naming and automatic validation.
+Released [PowerDynData.jl](https://github.com/cuihantao/PowerDynData.jl), a Julia package for parsing PSS/E dynamic data files with metadata-driven field naming and automatic validation. The [documentation](https://cui.eecps.com/PowerDynData.jl) provides parameter definitions for supported models.
