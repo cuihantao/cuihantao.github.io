@@ -34,33 +34,38 @@ North Carolina State University. Prior to joining NC State, he was an Assistant
 Professor at Oklahoma State University from 2021 to 2024. He earned his Ph.D. in
 Electrical Engineering from the University of Tennessee, Knoxville (2018),
 following his M.S. (2013) and B.S. (2011) in the same field from Southeast
-University, China. He is the author of [ANDES](https://github.com/curent/andes)
-for power systems modeling and analysis, and a recipient of the NSF CAREER
-Award. Previously, he served as the Chief Technologist of the
-[CURENT](https://curent.utk.edu) Large-Scale Testbed (LTB), a winner of the 2020
-R&D 100 Awards. He is the Chair of the [IEEE PES Computer and
-Analytical Methods Subcommittee (CAMS)](https://cmte.ieee.org/pes-cams/) and has
-been an Associate Editor of the [Journal of Modern Power Systems and Clean
-Energy](http://www.mpce.info) since 2019. He is a Senior Member of the IEEE.
+University, China. He received the NSF CAREER Award in 2024. Previously, he
+served as the Chief Technologist of the [CURENT](https://curent.utk.edu)
+Large-Scale Testbed (LTB), a winner of the 2020 R&D 100 Awards. He is the Chair
+of the [IEEE PES Computer and Analytical Methods Subcommittee
+(CAMS)](https://cmte.ieee.org/pes-cams/) and has been an Associate Editor of the
+[Journal of Modern Power Systems and Clean Energy](http://www.mpce.info) since
+2019. He is a Senior Member of the IEEE.
 
-Dr. Cui leads the Power CyberInfrastructure (PowerCI) Lab at NC State with a
-vision of a secure, resilient, and sustainable future power grid through
-advanced computational methods and cyber-physical system integration. The lab
-distinguishes itself through open science, developing next-generation
-computational infrastructure and analytical tools for power systems. This
-commitment is demonstrated through widely-used open-source tools like
-[ANDES](https://docs.andes.app) and training materials like
-[PowerCyber Training](https://powercybertraining.github.io) to serve the broader
-power systems community. 
+Dr. Cui leads the Power CyberInfrastructure (PowerCI) Lab at NC State. His work
+focuses on the computational structure and fundamental limits of dynamic power
+systems with high penetration of converter interfaced resources. He develops
+principled modeling and analysis frameworks, using computation as a scientific
+instrument to interrogate stability, controllability, and system behavior under
+modern operating regimes. These efforts have led to foundational insights into
+large scale dynamic simulation and inverter dominated grid stability, clarifying
+how computation, modeling fidelity, and control design fundamentally interact.
+His work has appeared in leading venues including Proceedings of the IEEE, IEEE
+Transactions on Power Systems, IEEE Transactions on Smart Grid, IEEE
+Transactions on Sustainable Energy, and Nature Communications.
 
-The PowerCI Lab welcomes students and researchers who are passionate about power
-systems and computational methods, particularly those interested in both
-theoretical foundations and practical implementations. To learn more about who
-we are, what we do, and how to join our lab, please visit our [group page](/group/).
+The PowerCI Lab develops and maintains research software infrastructure and
+training materials that support its work on power system modeling, simulation,
+and analysis. These include [ANDES](https://github.com/curent/andes), a Python
+based framework for dynamic power system modeling and large scale simulation, as
+well as computational training materials developed through projects such as
+[Power CyberTraining](https://powerct.eecps.com).
 
-Dr. Cui actively seeks industry partnerships with utility companies, renewable
-energy developers, and technology firms for grid modernization. His lab brings
-comprehensive expertise in industry-standard power system software (PSS/E,
-PowerWorld, PSCAD, EMTP, OPAL-RT, OpenDSS) and programming languages (Python,
-C++, Julia), and data analytics tools. The lab specializes in developing and
-deploying computational solutions that address real-world grid challenges.
+The PowerCI Lab actively partners with utilities, renewable energy developers,
+system operators, and technology companies on industry focused research and
+consulting for grid modernization. The lab conducts custom studies and
+collaborative research on topics such as dynamic modeling and simulation,
+inverter dominated grid stability, wide area monitoring, and computational
+performance of power system analysis tools. Industry engagements are designed to
+address real world challenges while grounding solutions in rigorous modeling,
+analysis, and validation.
