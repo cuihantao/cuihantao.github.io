@@ -42,17 +42,17 @@ of the [IEEE PES Computer and Analytical Methods Subcommittee
 [Journal of Modern Power Systems and Clean Energy](http://www.mpce.info) since 2019.
 He is a Senior Member of the IEEE.
 
-Dr. Cui leads the Power CyberInfrastructure (PowerCI) Lab at NC State. His work
-focuses on the computational structure and fundamental limits of dynamic power
-systems with high penetration of converter interfaced resources. He develops
-principled modeling and analysis frameworks, using computation as a scientific
-instrument to interrogate stability, controllability, and system behavior under
-modern operating regimes. These efforts have led to foundational insights into
-large scale dynamic simulation and inverter dominated grid stability, clarifying
-how computation, modeling fidelity, and control design fundamentally interact.
-His work has appeared in leading venues including Proceedings of the IEEE, IEEE
-Transactions on Power Systems, IEEE Transactions on Smart Grid, IEEE
-Transactions on Sustainable Energy, and Nature Communications.
+Dr. Cui leads the Power CyberInfrastructure (PowerCI) Lab at NC State, where his
+research focuses on the computational structure and fundamental limits of
+dynamic power systems with high penetration of converters and data center loads.
+His work emphasizes principled modeling and analysis frameworks that treat
+computation as a scientific instrument for studying stability, controllability,
+and system behavior under new challenges. These efforts have produced
+foundational insights into large scale dynamic simulation and system stability,
+clarifying the interplay among computation, modeling fidelity, and control
+design. His research has been published in leading venues including Proceedings
+of the IEEE, IEEE Transactions on Power Systems, IEEE Transactions on Smart
+Grid, IEEE Transactions on Sustainable Energy, and Nature Communications.
 
 The PowerCI Lab develops and maintains research software infrastructure and
 training materials that support its work on power system modeling, simulation,
