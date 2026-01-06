@@ -39,8 +39,8 @@ served as the Chief Technologist of the [CURENT](https://curent.utk.edu)
 Large-Scale Testbed (LTB), a winner of the 2020 R&D 100 Awards. He is the Chair
 of the [IEEE PES Computer and Analytical Methods Subcommittee
 (CAMS)](https://cmte.ieee.org/pes-cams/) and has been an Associate Editor of the
-[Journal of Modern Power Systems and Clean Energy](http://www.mpce.info) since
-2019. He is a Senior Member of the IEEE.
+[Journal of Modern Power Systems and Clean Energy](http://www.mpce.info) since 2019.
+He is a Senior Member of the IEEE.
 
 Dr. Cui leads the Power CyberInfrastructure (PowerCI) Lab at NC State. His work
 focuses on the computational structure and fundamental limits of dynamic power
