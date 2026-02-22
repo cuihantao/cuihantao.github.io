@@ -294,7 +294,12 @@ ninja.data = [{
           section: "News",},{id: "news-released-powerdyndata-jl-a-julia-package-for-parsing-pss-e-dynamic-data-files-with-metadata-driven-field-naming-and-automatic-validation-the-documentation-provides-parameter-definitions-for-supported-models",
           title: 'Released PowerDynData.jl, a Julia package for parsing PSS/E dynamic data files with metadata-driven...',
           description: "",
-          section: "News",},{id: "projects-curent-large-scale-testbed",
+          section: "News",},{id: "news-dr-cui-will-give-a-tutorial-on-andes-at-the-5th-gridfm-workshop-at-harvard",
+          title: 'Dr. Cui will give a tutorial on ANDES at the 5th GridFM Workshop...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026/202603-gridfm-tutorial/";
+            },},{id: "projects-curent-large-scale-testbed",
           title: 'CURENT Large-Scale Testbed',
           description: "The CURENT LTB for wide-area monitoring, modeling, control, and demonstration",
           section: "Projects",handler: () => {
