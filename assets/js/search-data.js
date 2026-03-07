@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-group",
+  },{id: "nav-blog",
+          title: "blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
+        },{id: "nav-group",
           title: "group",
           description: "Power CyberInfrastructure Lab (PowerCI)",
           section: "Navigation",
@@ -30,19 +37,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Teaching activities and notes.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
-        },{id: "dropdown-powercyber-training",
-              title: "PowerCyber Training",
+        },{id: "dropdown-teaching",
+              title: "teaching",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "https://powerct.eecps.com";
+                window.location.href = "/teaching/";
               },
             },{id: "dropdown-software",
               title: "software",
@@ -51,12 +51,12 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/software/";
               },
-            },{id: "dropdown-blog",
-              title: "blog",
+            },{id: "dropdown-powercyber-training",
+              title: "PowerCyber Training",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "/blog/";
+                window.location.href = "https://powerct.eecps.com";
               },
             },{id: "post-ai-is-eroding-the-technical-moat-of-proprietary-engineering-software",
         
