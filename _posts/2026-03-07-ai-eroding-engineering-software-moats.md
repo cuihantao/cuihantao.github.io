@@ -10,7 +10,7 @@ categories:
   - blog
 ---
 
-_This article is not written by AI_
+_This article was not written by AI_
 
 It is not big news that LLM-based agentic AI can code, and they do it quite well. Tools like Claude Code or Codex can bootstrap a personal website in minutes, write a power flow program from scratch and get it to work in half an hour, and combine existing tools to perform complex tasks. Its potential could be much bigger than we know.
 
