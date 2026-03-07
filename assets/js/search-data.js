@@ -58,7 +58,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-ai-is-eroding-the-technical-moat-of-proprietary-engineering-software",
+        
+          title: "AI Is Eroding the Technical Moat of Proprietary Engineering Software",
+        
+        description: "If coding is no longer the moat, what is?",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/ai-eroding-engineering-software-moats/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
