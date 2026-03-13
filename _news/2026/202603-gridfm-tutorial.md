@@ -19,3 +19,6 @@ standard cases, run dynamic simulations, programmatically vary operating
 conditions and fault scenarios, and extract time-series results for ML workflows.
 The session uses interactive Jupyter notebooks and assumes no prior experience
 with dynamic simulation.
+
+The tutorial materials are available on
+[GitHub](https://github.com/PowerCyberLab/gridfm-tutorial).
