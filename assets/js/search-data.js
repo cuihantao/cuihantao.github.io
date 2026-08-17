@@ -310,7 +310,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026/202603-gridfm-tutorial/";
-            },},{id: "projects-curent-large-scale-testbed",
+            },},{id: "news-visit-the-interactive-notes-for-ece-211-at-nc-state",
+          title: 'Visit the interactive notes for ECE 211 at NC State.',
+          description: "",
+          section: "News",},{id: "projects-curent-large-scale-testbed",
           title: 'CURENT Large-Scale Testbed',
           description: "The CURENT LTB for wide-area monitoring, modeling, control, and demonstration",
           section: "Projects",handler: () => {
